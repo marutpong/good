@@ -1,12 +1,15 @@
-baseurl = "https://marutpong.gitlab.io/hugo/"
+baseurl = "https://lilcmu.gitlab.io/gogo-example/"
 contentdir    = "content"
 layoutdir     = "layouts"
 publishdir    = "public"
-title = "GoGo Example"
+title = "GoGo Board Example"
 canonifyurls  = true
 
 DefaultContentLanguage = "en"
-theme = "hugo-theme-learn"
+defaultContentLanguageInSubdir= true
+
+theme = "hugo-theme-learn-mod"
+
 metaDataFormat = "yaml"
 pygmentsUseClasses = true
 pygmentCodeFences = true
@@ -18,7 +21,7 @@ pygmentCodeFences = true
 home = [ "HTML", "RSS", "JSON"]
 
 [Params]
-  subtitle = "Hugo Blog Template for GitLab Pages"
+  description = "GoGo Board Example"
   logo = "img/avatar-icon.png"
   favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
@@ -26,18 +29,20 @@ home = [ "HTML", "RSS", "JSON"]
   rss = true
   comments = true
   # Change default color scheme with a variant one. Can be "red", "blue", "green".
-  themeVariant = "green"
-#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+  themeVariant = "green-mod"
+  #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+  showVisitedLinks = true
 
-#[[Params.bigimg]]
-#  src = "img/triangle.jpg"
-#  desc = "Triangle"
-#[[Params.bigimg]]
-#  src = "img/sphere.jpg"
-#  desc = "Sphere"
-#[[Params.bigimg]]
-#  src = "img/hexagon.jpg"
-#  desc = "Hexagon"
+[Languages]
+[Languages.en]
+title = "GoGo Board Example"
+weight = 1
+languageName = "English"
+
+[Languages.th]
+title = "GoGo Board Example"
+weight = 2
+languageName = "ภาษาไทย"
 
 [Author]
   name = "Some Person"
