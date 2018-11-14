@@ -1,4 +1,4 @@
-baseurl = "https://lilcmu.gitlab.io/gogo-example/"
+baseurl = "https://marutpong.gitlab.io/good/"
 contentdir    = "content"
 layoutdir     = "layouts"
 publishdir    = "public"
